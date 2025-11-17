@@ -18,7 +18,7 @@ int main() {
     int opcao;
 
     do {
-        printf("\n=== Sistema de Controle de Horas Extras ===\n");
+        printf("\n Sistema de Controle de Horas Extras \n");
         printf("1 - Registrar horas extras\n");
         printf("2 - Listar solicitacoes\n");
         printf("3 - Aprovar/Reprovar solicitacao\n");
@@ -30,7 +30,7 @@ int main() {
 
         
         case 1: {
-            printf("\n--- Novo Registro ---\n");
+            printf("\n Novo Registro \n");
             printf("Nome do funcionario: ");
             getchar(); 
             fgets(registros[qtd].nome, 50, stdin);
